@@ -1,3 +1,13 @@
+---
+layout: post
+title: Factory Pattern
+date: 2021-05-16
+category: design-pattern
+author: jhhong0509
+short-description: Generating Object
+---
+------
+
 # Factory 패턴
 
 ### 소개

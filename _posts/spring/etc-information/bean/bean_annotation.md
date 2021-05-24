@@ -1,3 +1,13 @@
+---
+layout: post
+title: Bean Annotations
+date: 2021-05-06
+category: helpful-information
+author: jhhong0509
+short-description: Spring Bean
+---
+------
+
 # 빈 어노테이션 종류 및 차이
 
 ### @Component

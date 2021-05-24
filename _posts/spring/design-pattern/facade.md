@@ -6,6 +6,7 @@ category: design-pattern
 author: jhhong0509
 short-description: Facade pattern
 ---
+------
 
 # Facade 패턴
 
