@@ -1,3 +1,13 @@
+---
+layout: post
+title: Normalization
+date: 2021-05-03
+category: database
+author: jhhong0509
+short-description: normalization 1 to BCNF
+---
+------
+
 # 데이터베이스의 정규화
 
 ### 정규화란

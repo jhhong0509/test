@@ -6,6 +6,7 @@ category: helpful-information
 author: jhhong0509
 short-description: What is Spring Bean
 ---
+------
 
 # Spring Bean
 
