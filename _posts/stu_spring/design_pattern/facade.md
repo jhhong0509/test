@@ -1,3 +1,12 @@
+---
+layout: post
+title: Facade Pattern
+date: 2021-05-03
+category: design-pattern
+author: jhhong0509
+short-description: Facade pattern
+---
+
 # Facade 패턴
 
 ### 개념
