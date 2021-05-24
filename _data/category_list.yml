@@ -2,11 +2,11 @@
 
 
 using-subcategories:
-  name: Using Subcategories
+  name:
   description: Learn to use subcategories!
 using-odin:
-  name: Using Odin
-  description: Welcome to Odin, time to get started
-customizing-odin:
-  name: Customizing Odin
-  description: Welcome to Odin, time to get started
+  name: databases
+  description: Study about database
+using-odin2:
+  name: nginx
+  description: nginx
