@@ -39,13 +39,13 @@ twitter_username:
 facebook_page:
 github_username: jhhong0509
 email: jhhong0509@naver.com
-linkedin_page: https://jhhong0509.github.com
+linkedin_page: https://jhhong0509.github.io
 instagram_username:
 
 
 # Navivation
 nav_item_one: Github
-nav_item_one_link: https://github.com/jhhong0509/jhhong0509.github.com
+nav_item_one_link: https://github.com/jhhong0509/jhhong0509.github.io
 
 nav_item_two: #
 nav_item_two_link: #
@@ -60,7 +60,7 @@ nav_button_link: https://jhhong0509.github.io/
 help_one_title: Bugs
 help_one_content: If you find bugs or typing errors, please open an issue over on Github
 help_one_button: Github
-help_one_link: https://github.com/jhhong0509/jhhong0509.github.com/issues
+help_one_link: https://github.com/jhhong0509/jhhong0509.github.io/issues
 
 help_two_title: #
 help_two_content: #
