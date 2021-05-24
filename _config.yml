@@ -20,7 +20,7 @@
 
 title: Jeong's Blog
 description: Mandoo's study blog
-baseurl: / # the subpath of your site, e.g. /support
+baseurl: "" # the subpath of your site, e.g. /support
 url: https://jhhong0509.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
