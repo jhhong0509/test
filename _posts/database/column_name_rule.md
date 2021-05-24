@@ -7,6 +7,7 @@ author: jhhong0509
 short-description: The importance of naming in database
 ---
 ------
+
 # 데이터베이스 이름의 중요성
 
 ### 이름은 오랫동안 사용된다.

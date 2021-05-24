@@ -1,3 +1,13 @@
+---
+layout: post
+title: Database Naming
+date: 2021-05-03
+category: database
+author: jhhong0509
+short-description: The importance of naming in database
+---
+------
+
 # 스키마
 
 ### 정의

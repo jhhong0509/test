@@ -1,7 +1,7 @@
 #This file defines all the categories you are using
 
 spring:
-  name: Spring
+  name: spring
   description: Study about spring boot
 database:
   name: database
