@@ -1,6 +1,5 @@
 #This file defines all the categories you are using
 
-
 using-subcategories:
   name: Spring
   description: Study about spring boot
