@@ -10,3 +10,6 @@ using-odin:
 using-odin2:
   name: nginx
   description: nginx
+using-odin3:
+  name: nginx
+  description: nginx
