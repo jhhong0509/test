@@ -4,47 +4,47 @@
 subcategory-one:
   name: Design Pattern
   parent-category: spring
-  parent-category-name: Spring
+  parent-category-name: spring
   description: Java's Design Patterns
 
 subcategory-two:
   name: Helpful Information
   parent-category: spring
-  parent-category-name: Spring
+  parent-category-name: spring
   description: Helpful Informations when develop Spring Boot
 
 subcategory-three:
   name: Fixing
   parent-category: spring
-  parent-category-name: Spring
+  parent-category-name: spring
   description: My fixing logs
 
 subcategory-four:
   name: Libraries
   parent-category: spring
-  parent-category-name: Spring
+  parent-category-name: spring
   description: Spring's libraries
 
 subcategory-five:
   name: ORM
   parent-category: spring
-  parent-category-name: Spring
+  parent-category-name: spring
   description: Spring's ORMs like ORM, QueryDSL etc
 
 subcategory-six:
   name: Reflection And AOP
   parent-category: spring
-  parent-category-name: Spring
+  parent-category-name: spring
   description: Java reflection and AOP
 
 subcategory-seven:
   name: Start Spring Boot Develop Sole
   parent-category: spring
-  parent-category-name: Spring
+  parent-category-name: spring
   description: The cleanup of the book. uses AWS, Spring Boot, Spring Data JPA etc
 
 subcategory-eight:
   name: Webflux
   parent-category: spring
-  parent-category-name: Spring
+  parent-category-name: spring
   description: Spring's non-blocking programming webflux

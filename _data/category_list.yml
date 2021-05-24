@@ -1,17 +1,17 @@
 #This file defines all the categories you are using
 
-using-subcategories:
+spring:
   name: Spring
   description: Study about spring boot
-using-odin:
+database:
   name: database
   description: Study about database
 #using-odin2: not finished
 #  name: nginx
 #  description: nginx
-using-odin1:
+refactoring:
   name: refactoring
   description: Study about code refactoring
-using-odin2:
+docker:
   name: docker
   description: Study about docker.
