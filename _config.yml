@@ -20,7 +20,7 @@
 
 title: mandoo
 description: Mandoo's blog
-baseurl: /mandoo # the subpath of your site, e.g. /support
+baseurl: /odin # the subpath of your site, e.g. /support
 url: https://jhhong0509.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
