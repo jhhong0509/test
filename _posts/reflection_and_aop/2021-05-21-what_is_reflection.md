@@ -1,3 +1,13 @@
+---
+layout: post
+title: What is Reflection
+date: 2021-05-29
+category: reflection-aop
+author: jhhong0509
+short-description: What is Reflection
+---
+------
+
 # 리플렉션
 
 ### 리플렉션 이란

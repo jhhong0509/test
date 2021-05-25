@@ -33,13 +33,7 @@ jpa-basic-orm:
   name: Spring JPA
   parent-category: spring
   parent-category-name: spring
-  description: A book about Spring JPA
-
-test:
-  name: test
-  parent-category: spring-orm
-  parent-category-name: ORM
-  description: test
+  description: A book about Spring JPA\
 
 reflection-aop:
   name: Reflection And AOP
