@@ -29,6 +29,12 @@ spring-orm:
   parent-category-name: spring
   description: Spring's ORMs like ORM, QueryDSL etc
 
+jpa-basic-orm:
+  name: Spring JPA
+  parent-category: spring
+  parent-category-name: spring
+  description: A book about Spring JPA
+
 test:
   name: test
   parent-category: spring-orm
@@ -52,9 +58,3 @@ webflux:
   parent-category: spring
   parent-category-name: spring
   description: Spring's non-blocking programming webflux
-
-jpa-basic-orm:
-  name: Spring JPA
-  parent-category: spring
-  parent-category-name: spring
-  description: A book about Spring JPA
