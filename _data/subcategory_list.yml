@@ -11,7 +11,7 @@ helpful-information:
   parent-category-name: spring
   description: Helpful Informations when develop Spring Boot
 
-fixing-log:
+fixing:
   name: Fixing
   parent-category: spring
   parent-category-name: spring
