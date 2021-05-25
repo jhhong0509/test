@@ -27,7 +27,7 @@ permalink: /:categories/:title
 content_type: Backend #Define whether this is a knowledge base, help center, or something else
 use_authors: true #Set this to false to disable showing post authors
 
-brand_logo: mandoo.png
+brand_logo: mandoo2.png
 brand_name: Mandoo
 header: Backend Studying Logs
 subheader: Blog for spring backend developer
