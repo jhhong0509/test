@@ -27,7 +27,7 @@ permalink: /:categories/:title
 content_type: Backend #Define whether this is a knowledge base, help center, or something else
 use_authors: true #Set this to false to disable showing post authors
 
-brand_logo: logo.png
+brand_logo: mandoo.png
 brand_name: Mandoo
 header: Backend Studying Logs
 subheader: Blog for spring backend developer
@@ -39,8 +39,7 @@ twitter_username:
 facebook_page:
 github_username: jhhong0509
 email: jhhong0509@naver.com
-linkedin_page: https://jhhong0509.github.io
-instagram_username:
+linkedin_page:
 
 
 # Navivation
@@ -53,7 +52,7 @@ nav_item_two_link: #
 nav_item_three: #
 nav_item_three_link: #
 
-nav_button: Return to Odin Home
+nav_button: Return to Home
 nav_button_link: https://jhhong0509.github.io/
 
 # More Help
