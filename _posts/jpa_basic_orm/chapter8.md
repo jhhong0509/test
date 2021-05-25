@@ -32,7 +32,7 @@ JPA에서는 식별자로 엔티티를 조회할 때 `EntityManager.find()`를 �
 
 #### 프록시 특징
 
-![proxy](./images/proxy_characteristic.jpg)
+![proxy](images/proxy_characteristic.jpg)
 
 프록시 클래스는 실제 클래스를 상속받아 만들기 때문에 겉모습은 똑같다.
 
@@ -42,7 +42,7 @@ JPA에서는 식별자로 엔티티를 조회할 때 `EntityManager.find()`를 �
 
 **프록시 객체는 실제 객체에 대한 참조를 보관한다.**
 
-![proxy](./images/proxy_structure.jpg)
+![proxy](images/proxy_structure.jpg)
 
 그렇기 때문에 프록시 객체의 메소드를 호출하면 프록시 객체는 실제 객체의 메소드를 호출한다.
 
@@ -77,7 +77,7 @@ Member member = em.getReference(Member.class, "id1");
 member.getName();		// 이 시점에서 DB에 접근한다.
 ```
 
-![proxy](./images/proxy_order.jpg)
+![proxy](images/proxy_order.jpg)
 
 1. 프록시 객체의 메소드를 호출한다.
 
@@ -155,7 +155,7 @@ JPA가 SQL을 생성할 때, INNER JOIN과 OUTER JOIN으로 나뉘게 된다.
 
 > 기본값이 EAGER이다.
 
-![proxy](./images/eager_loading.jpg)
+![proxy](images/eager_loading.jpg)
 
 이런식으로 하면 **member를 불러올 때 JOIN을 통해 team을 함께 불러온다.**
 
@@ -183,7 +183,7 @@ JPA가 SQL을 생성할 때, INNER JOIN과 OUTER JOIN으로 나뉘게 된다.
 
 > `@OneToMany`는 기본적으로 LAZY이기 때문에 굳이 설정하지 않아도 된다.
 
-![proxy](./images/lazy_loading_proxy.jpg)
+![proxy](images/lazy_loading_proxy.jpg)
 
 처음에 member1을 로딩할 때에는 MEMBER 테이블에서 member 엔티티를 찾아온다.
 
@@ -280,7 +280,7 @@ parent.getChildren().add(child1);
 parent.getChildren().add(child2);
 ```
 
-<img src="./images/cascade_persist.jpg" alt="cascade" style="zoom:50%;" />
+<img src="images/cascade_persist.jpg" alt="cascade" style="zoom:50%;" />
 
 **영속성 전이는 단순히 persist를 하는 편리함만 제공할 뿐이다**
 

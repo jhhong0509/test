@@ -1,6 +1,6 @@
 # 챕터2 JPA 시작
 
-기본적인 Entity 객체에 관한 설명 [Entity](../../spring_boot_sole_web/codes/DTOs_and_Entity.md)
+기본적인 Entity 객체에 관한 설명 [Entity](../spring_boot_sole_web/codes/DTOs_and_Entity.md)
 
 Database의 이름 규칙 [NameRule](../../../database/column_name_rule.md)
 
@@ -64,7 +64,7 @@ JPA는 **특정 데이터베이스에 종속적이지 않다.**
 
 > [yaml 파일](#JPA-표준-속성) 에서 dialect 부분이다.
 
-![sql_dialect](./images/sql_dialect.jpg)
+![sql_dialect](images/sql_dialect.jpg)
 
 위 사진과 같이 원하는 데이터베이스의 Dialect를 설정해 주면 Dialect는 그에 맞는 SQL 쿼리를 생성해 준다.
 
@@ -74,5 +74,5 @@ JPA는 **특정 데이터베이스에 종속적이지 않다.**
 
 참고로, Dialect를 custom 해줄 수 있다.
 
-[JPQL이란](../what_is_jpql.md)
+[JPQL이란](../orm/what_is_jpql.md)
 

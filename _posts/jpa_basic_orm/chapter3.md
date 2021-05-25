@@ -41,7 +41,7 @@ EntityManager를 닫으면 DB Connection을 Connection Pool에 반환한다.
 
 필요할때는 꺼내서 **사용**하고, 사용한 후에는 다시 **Connection pool에 넣어둔다.**
 
-<img src="./images/connection_pool.jpg" alt="connection_pool" style="zoom:67%;" />
+<img src="images/connection_pool.jpg" alt="connection_pool" style="zoom:67%;" />
 
 보통 JPA의 구현체들은 **EntityManagerFactory를 생성**할 때 커넥션 풀을 생성한다.
 
@@ -63,7 +63,7 @@ JPA를 이해하기 위해 **필수**적으로 알아야 할 것 이며, 이 챕
 
 #### 엔티티 생명주기
 
-![persistence_context](./images/persistence_context.jpg)
+![persistence_context](images/persistence_context.jpg)
 
 ##### 비영속(new/transient)
 
@@ -163,7 +163,7 @@ Map 형태로 엔티티를 저장한다.
 
 > 데이터베이스 트랜잭션과 자바의 트랜잭션은 별개이다.
 
-![persistence_context_persist_update](./images/persistence_context_persist_update.jpg)
+![persistence_context_persist_update](images/persistence_context_persist_update.jpg)
 
 변경 감지는 영속성 컨텍스트가 관리하는 영속 상태의 엔티티에만 적용된다.
 
@@ -195,15 +195,15 @@ Entity 클래스에 `@DynamicUpdate` 어노테이션을 붙여주면 된다.
 
 persist() 메소드는 아래와 같이 객체를 영속화 해서 영속성 컨텍스트에 저장하는 것이다. **즉시 INSERT를 하는것이 아니다.**
 
-![persistence_context_persist1](./images/persistence_context_persist1.jpg)
+![persistence_context_persist1](images/persistence_context_persist1.jpg)
 
-![persistence_context_persist2](./images/persistence_context_persist2.jpg)
+![persistence_context_persist2](images/persistence_context_persist2.jpg)
 
 또한 영속성 컨텍스트에 저장된 객체는 당연히 1차 캐시에 저장되고, **쓰기 지연 SQL 저장소 라는 곳에 INSERT 쿼리를 저장**해 둔다.
 
 영속성 컨텍스트에 올라간 객체는 **트랜잭션이 끝날 때 까지 기다렸다가 아래와 같이 쓰기 flush가 발생해서 지연 SQL 저장소의 INSERT 쿼리를 실행**한다.
 
-![persistence_context_persist3](./images/persistence_context_persist3.jpg)
+![persistence_context_persist3](images/persistence_context_persist3.jpg)
 
 > 기본적으로 DB는 트랜잭션이 커밋되지 않으면 매 persist() 메소드마다 SQL을 보내든 commit 직전에 보내든 상관 없이, 하나의 트랜잭션에서 실행되기 때문에 SQL을 어떻게 보내든 상관 없이 **DB의 트랜잭션이 커밋되지 않으면 의미 없다.**
 >
@@ -297,9 +297,9 @@ COMMIT은 **커밋할때만** 플러시가 된다.
 
 준영속 상태가 되면, 1차 캐시에서 해당 객체가 모두 삭제된다.
 
-![jpa_detached_1](./images/jpa_detached_1.jpg)
+![jpa_detached_1](images/jpa_detached_1.jpg)
 
-![jpa_detached_1](./images/jpa_detached_2.jpg)
+![jpa_detached_1](images/jpa_detached_2.jpg)
 
 또한  쓰기지연 SQL 저장소에서도 해당 객체 관련 SQL이 삭제된다.
 
@@ -309,7 +309,7 @@ detach()  메소드는 하나의 엔티티를 준영속 상태로 만들어 준�
 
 하지만 clear() 메소드는 영속성 컨텍스트의 모든 엔티티를 준영속 상태로 만들어 준다.`
 
-![jpa_detached_3](./images/jpa_detached_3.jpg)
+![jpa_detached_3](images/jpa_detached_3.jpg)
 
 detach() 메소드와 비교했을 때, detach() 메소드는 지정한 특정 객체만 날렸지만 clear() 메소드는 모든 영속 객체를 지웠다.
 
@@ -349,7 +349,7 @@ Member member = em.merge(member);
 
 위 메소드는 아래와 같은 순서로 작동한다.
 
-![jpa_merge](./images/jpa_merge.jpg)
+![jpa_merge](images/jpa_merge.jpg)
 
 1. merge 메소드 실행
 

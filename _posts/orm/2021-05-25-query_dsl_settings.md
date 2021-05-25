@@ -1,3 +1,13 @@
+---
+layout: post
+title: Setting QueryDSL
+date: 2021-05-03
+category: orm
+author: jhhong0509
+short-description: Setting QueryDSL
+---
+------
+
 # QueryDsl 기본 세팅
 
 ### build.gradle

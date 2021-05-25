@@ -1,3 +1,13 @@
+---
+layout: post
+title: QueryDSL Basic
+date: 2021-05-08
+category: orm
+author: jhhong0509
+short-description: QueryDSL Basic
+---
+------
+
 # QueryDsl
 
 ### QueryDsl이란?

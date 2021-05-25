@@ -52,3 +52,9 @@ webflux:
   parent-category: spring
   parent-category-name: spring
   description: Spring's non-blocking programming webflux
+
+jpa-basic-orm:
+  name: Spring JPA
+  parent-category: spring
+  parent-category-name: spring
+  description: A book about Spring JPA

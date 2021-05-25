@@ -132,7 +132,7 @@ public class Member {
 
 > `@Embeddable`을 붙여줘야 한다.
 
-<img src="./images/embedded_uml.jpg" alt="embedded" style="zoom:50%;" />
+<img src="images/embedded_uml.jpg" alt="embedded" style="zoom:50%;" />
 
 위와 같이 엔티티가 응집력 있게 변하게 된다.
 
@@ -144,7 +144,7 @@ public class Member {
 
 > hibernate는 임베디드 타입을 components 라고 부른다.
 
-<img src="./images/embedded_mapping.jpg" alt="proxy" style="zoom: 80%;" />
+<img src="images/embedded_mapping.jpg" alt="proxy" style="zoom: 80%;" />
 
 임베디드 타입은 위와 같이 매핑된다.
 
