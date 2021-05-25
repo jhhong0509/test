@@ -1,3 +1,13 @@
+---
+layout: post
+title: No-Stop Publishing
+date: 2021-05-10
+category: start-spring-boot
+author: jhhong0509
+short-description: How to do Non-stop Publishing with NGINX
+---
+------
+
 # NGINX를 이용한 무중단 배포
 
 ### 무중단 배포 소개

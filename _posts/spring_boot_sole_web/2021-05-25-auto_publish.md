@@ -1,3 +1,13 @@
+---
+layout: post
+title: How to Auto Publishing
+date: 2021-05-11
+category: start-spring-boot
+author: jhhong0509
+short-description: Auto Publishing with Travis CI
+---
+------
+
 # Travis CI를 이용한 배포 자동화
 
 ### 만들어야 하는 이유

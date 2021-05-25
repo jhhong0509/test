@@ -1,3 +1,13 @@
+---
+layout: post
+title: Introduce JPA
+date: 2021-05-15
+category: start-spring-boot
+author: jhhong0509
+short-description: Java ORM
+---
+------
+
 # 콘솔에 쿼리 찍기
 ``` yml
 spring:
