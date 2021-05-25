@@ -1,3 +1,13 @@
+---
+layout: post
+title: Spring Data JPA update
+date: 2021-05-03
+category: fixing
+author: jhhong0509
+short-description: call Flush() method on Spring Data JPA
+---
+------
+
 # Spring Data Jpa 오류 수정
 
 ### 문제 발생

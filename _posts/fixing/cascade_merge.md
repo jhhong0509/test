@@ -1,3 +1,13 @@
+---
+layout: post
+title: CascadeType.MERGE
+date: 2021-05-03
+category: fixing
+author: jhhong0509
+short-description: Error on CascadeType.MERGE
+---
+------
+
 # CascadeType.MERGE
 
 ### 발생 이유

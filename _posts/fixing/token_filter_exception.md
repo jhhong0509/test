@@ -1,3 +1,13 @@
+---
+layout: post
+title: TokenFilter Exception
+date: 2021-05-03
+category: fixing
+author: jhhong0509
+short-description: Exception on TokenFilter return 500
+---
+------
+
 # 토큰 필터에서 발생한 Exception이 무조건 500 발생
 
 ### 발생 이유

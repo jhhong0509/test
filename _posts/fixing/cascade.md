@@ -1,3 +1,13 @@
+---
+layout: post
+title: Cascade
+date: 2021-05-03
+category: fixing
+author: jhhong0509
+short-description: Error on Cascade 
+---
+------
+
 # 영속성 전이로 인한 오류
 
 ### 발생 이유

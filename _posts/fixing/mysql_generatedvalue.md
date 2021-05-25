@@ -1,3 +1,13 @@
+---
+layout: post
+title: @GeneratedValue
+date: 2021-05-03
+category: fixing
+author: jhhong0509
+short-description: @GeneratedValue mistake when use AUTO mode in MySQL
+---
+------
+
 # @MappedSuperClass로 @Id 묶기
 
 ### 발생 이유

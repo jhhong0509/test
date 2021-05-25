@@ -1,3 +1,13 @@
+---
+layout: post
+title: Token Validate
+date: 2021-05-03
+category: fixing
+author: jhhong0509
+short-description: Validate Token Error when BASE64 not encoded
+---
+------
+
 # 토큰 검증
 
 ### 문제 발생

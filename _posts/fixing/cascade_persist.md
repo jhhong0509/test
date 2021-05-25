@@ -1,3 +1,13 @@
+---
+layout: post
+title: Cascade PERSIST
+date: 2021-05-03
+category: fixing
+author: jhhong0509
+short-description: PERSIST not worked when save an entity
+---
+------
+
 # 영속성 전이 PERSIST 저장 안됨
 
 ### 발생 이유

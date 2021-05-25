@@ -1,3 +1,13 @@
+---
+layout: post
+title: MySQL Connect
+date: 2021-05-03
+category: fixing
+author: jhhong0509
+short-description: MysQL Connection Error
+---
+------
+
 # Mysql Connect 오류
 
 ### 발생 이유
