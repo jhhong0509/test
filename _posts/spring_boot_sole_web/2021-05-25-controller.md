@@ -1,3 +1,13 @@
+---
+layout: post
+title: Introduce Controller
+date: 2021-05-19
+category: start-spring-boot
+author: jhhong0509
+short-description: controller
+---
+------
+
 # controller
 - @RestController
     - 컨트롤러의 설정

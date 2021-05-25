@@ -1,3 +1,13 @@
+---
+layout: post
+title: Introduce WAS
+date: 2021-05-25
+category: start-spring-boot
+author: jhhong0509
+short-description: What is WAS
+---
+------
+
 # WAS
 - Web Server란
     - Web Server는 web 서버가 설치되어 있는 컴퓨터 이다.

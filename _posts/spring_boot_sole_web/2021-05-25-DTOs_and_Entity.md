@@ -1,3 +1,13 @@
+---
+layout: post
+title: DTOs And Entity
+date: 2021-05-18
+category: start-spring-boot
+author: jhhong0509
+short-description: Gap of them.
+---
+------
+
 # DTOs
 - Controller와 Service 사이의 데이터 교환을 위한 객체
 - Entity와 비슷하더라도, 절대 Entity를 DTO처럼 사용하면 안된다.

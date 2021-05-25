@@ -1,3 +1,13 @@
+---
+layout: post
+title: Setup a Project
+date: 2021-05-24
+category: start-spring-boot
+author: jhhong0509
+short-description: Setup a project in IntelliJ
+---
+------
+
 # 프로젝트 설정
 
 ### 프로젝트 설정 방법 1
