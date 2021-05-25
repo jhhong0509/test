@@ -1,6 +1,4 @@
 #Tihs file defines all categories that live within a parent category
-
-
 design-pattern:
   name: Design Pattern
   parent-category: spring
@@ -30,6 +28,12 @@ spring-orm:
   parent-category: spring
   parent-category-name: spring
   description: Spring's ORMs like ORM, QueryDSL etc
+
+test:
+  name: test
+  parent-category: spring-orm
+  parent-category-name: ORM
+  description: test
 
 reflection-aop:
   name: Reflection And AOP

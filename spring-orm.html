@@ -4,3 +4,7 @@ category: spring
 subcategory: spring-orm
 title: spring-orm
 ---
+
+{% for post in site.categories.spring-orm %}
+{% include article-card.html %}
+{% endfor %}

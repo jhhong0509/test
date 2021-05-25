@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Database Naming
-date: 2021-05-03
+date: 2021-05-04
 category: database
 author: jhhong0509
 short-description: The importance of naming in database
