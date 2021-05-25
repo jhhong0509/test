@@ -2,7 +2,7 @@
 layout: post
 title: Spring Data JPA update
 date: 2021-05-03
-category: fixing
+category: fixing-log
 author: jhhong0509
 short-description: call Flush() method on Spring Data JPA
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: TokenFilter Exception
 date: 2021-05-03
-category: fixing
+category: fixing-log
 author: jhhong0509
 short-description: Exception on TokenFilter return 500
 ---

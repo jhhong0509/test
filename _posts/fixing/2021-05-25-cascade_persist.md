@@ -2,7 +2,7 @@
 layout: post
 title: Cascade PERSIST
 date: 2021-05-03
-category: fixing
+category: fixing-log
 author: jhhong0509
 short-description: PERSIST not worked when save an entity
 ---

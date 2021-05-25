@@ -2,7 +2,7 @@
 layout: post
 title: Token Validate
 date: 2021-05-03
-category: fixing
+category: fixing-log
 author: jhhong0509
 short-description: Validate Token Error when BASE64 not encoded
 ---

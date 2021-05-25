@@ -2,7 +2,7 @@
 layout: post
 title: @GeneratedValue
 date: 2021-05-03
-category: fixing
+category: fixing-log
 author: jhhong0509
 short-description: @GeneratedValue mistake when use AUTO mode in MySQL
 ---
