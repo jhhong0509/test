@@ -1,3 +1,13 @@
+---
+layout: post
+title: Rest Template
+date: 2021-05-08
+category: libraries
+author: jhhong0509
+short-description: Request Rest API Request in Spring Boot
+---
+------
+
 # MapStruct
 
 ### MapStruct란?
@@ -30,7 +40,7 @@
 
 하지만 굳이 MapStruct를 사용하는 이유는 **빠르고, 읽기 쉽고, 많이 쓰이기 때문이다.**
 
-![main_oriented](graph.jpg)
+![main_oriented](https://github.com/jhhong0509/study/blob/master/stu_spring/libraries/mapStruct/graph.jpg?raw=true)
 
 > 하늘색이 MapStruct의 통계다
 

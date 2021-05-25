@@ -1,3 +1,13 @@
+---
+layout: post
+title: Using Mapstruct
+date: 2021-05-03
+category: libraries
+author: jhhong0509
+short-description: How to use Mapstruct
+---
+------
+
 # 사용하기
 
 우선 MapStruct를 사용하려면 매핑될 클래스, 매핑할 클래스가 필요하기 때문에 예제로 Entity와 Response 클래스를 만든다.

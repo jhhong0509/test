@@ -1,3 +1,13 @@
+---
+layout: post
+title: Errors on Mapstruct
+date: 2021-05-01
+category: libraries
+author: jhhong0509
+short-description: Error on mapstruct
+---
+------
+
 # MapStruct에서 겪은 에러들
 
 ### Unmapped target propertiesUnmapped target properties

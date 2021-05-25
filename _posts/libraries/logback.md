@@ -1,3 +1,13 @@
+---
+layout: post
+title: LogBack
+date: 2021-05-03
+category: libraries
+author: jhhong0509
+short-description: Logging in Spring boot
+---
+------
+
 # logback
 
 ### Logback이란
