@@ -20,13 +20,13 @@ short-description: Introduce AOP
 
 > 아래와 같이 기능을 중심적으로 바라보는 것이 아니라,
 >
-> ![main_oriented](main_oriented.jpg)
+> ![main_oriented](https://github.com/jhhong0509/study/blob/master/stu_spring/reflection_and_aop/main_oriented.jpg?raw=true)
 >
 > 
 >
 > 아래와 같이 부가 기능의 관점에서 바라봤을 때 공통된 요소를 추출하라는 것이다.
 >
-> ![aop](aop.png)
+> ![aop](https://github.com/jhhong0509/study/blob/master/stu_spring/reflection_and_aop/aop.png?raw=true)
 >
 > 가로 영역의 공통 부분을 자르는 것 이라는 의미로, Cross-Cutting 이라고도 부른다.
 
