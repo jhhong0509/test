@@ -1,3 +1,13 @@
+---
+layout: post
+title: SERVLET
+date: 2021-05-03
+category: helpful-information
+author: jhhong0509
+short-description: What is Servlet
+---
+------
+
 # SERVLET
 
 ## SERVLET이란
@@ -16,7 +26,7 @@ Servlet 클래스는 HttpServlet 클래스를 상속받아서 사용하며, Serv
 
 ## 구조
 
-![servlet_extends](../images/servlet_extends.png)
+![servlet_extends](https://github.com/jhhong0509/study/blob/master/stu_spring/etc_information/images/servlet_extends.png?raw=true)
 
 위와 그림과 같이 `GenericServlet` 이라는 클래스가 `Servlet`과 `ServletConfig` 라는 클래스를 상속받아 사용한다.
 

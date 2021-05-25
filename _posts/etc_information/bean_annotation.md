@@ -1,3 +1,13 @@
+---
+layout: post
+title: Bean Annotation
+date: 2021-05-03
+category: helpful-information
+author: jhhong0509
+short-description: Difference between @Component and @Bean and etc
+---
+------
+
 # 빈 어노테이션 종류 및 차이
 
 ### @Component

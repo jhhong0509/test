@@ -1,3 +1,13 @@
+---
+layout: post
+title: ExceptionHandler
+date: 2021-05-03
+category: helpful-information
+author: jhhong0509
+short-description: @ExceptionHandler and @ControllerAdvice
+---
+------
+
 # @ExceptionHandler 어노테이션
 
 ### Annotation 설명
@@ -32,4 +42,4 @@
 
 @ControllerAdvice와 같지만, @RestController 어노테이션이 붙은 클래스들을 감지한다.
 
-![exception](../images/exception.png)
+![exception](https://github.com/jhhong0509/study/blob/master/stu_spring/etc_information/images/exception.png?raw=true)

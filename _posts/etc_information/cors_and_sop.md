@@ -1,3 +1,13 @@
+---
+layout: post
+title: CORS And SOP
+date: 2021-05-03
+category: helpful-information
+author: jhhong0509
+short-description: CORS and SOP the policy of security
+---
+------
+
 # CORS
 
 ### CORS란

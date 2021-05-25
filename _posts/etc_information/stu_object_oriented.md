@@ -1,3 +1,13 @@
+---
+layout: post
+title: OOP
+date: 2021-05-03
+category: helpful-information
+author: jhhong0509
+short-description: basic of Object-Oriented Programming
+---
+------
+
 # 객체 지향 프로그래밍
 ## 객체 지향 프로그래밍이란?
 

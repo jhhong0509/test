@@ -1,3 +1,13 @@
+---
+layout: post
+title: Transaction
+date: 2021-05-03
+category: helpful-information
+author: jhhong0509
+short-description: Transaction in Spring and Database
+---
+------
+
 # Transaction
 
 ### 소개
@@ -43,7 +53,8 @@ Spring에서 트랜잭션은 Database와 비슷하지만 별개로 작동하는 
 
 트랜잭션의 상태는 크게 5개로 나뉠 수 있다.
 
-![Transaction Status](./images/transaction_status.png)
+
+![servlet_extends](https://github.com/jhhong0509/study/blob/master/stu_spring/etc_information/images/transaction_status.png?raw=true)
 
 | 이름      | 설명                                                         |
 | --------- | ------------------------------------------------------------ |
@@ -254,7 +265,7 @@ MGL을 위해 InnoDB는 Intention Lock을 사용하는데, Intention Lock은 **�
 >
 > 따라서 `Dirty Read`현상이 발생한다.
 
-<img src="./images/transaction_isol_uncommit.png" alt="Transaction Read Uncommited" style="zoom:50%;" />
+<img src="https://github.com/jhhong0509/study/blob/master/stu_spring/etc_information/images//transaction_isol_uncommit.png?raw=true" alt="Transaction Read Uncommited" style="zoom:50%;" />
 
 위 그림과 같이 다른 트랜잭션이 수정되었을 때 커밋되지 않아도 해당 트랜잭션에서 수정된 값을 읽을 수 있다.
 
@@ -274,7 +285,7 @@ MGL을 위해 InnoDB는 Intention Lock을 사용하는데, Intention Lock은 **�
 >
 > 따라서 트랜잭션의 이전 정보를 담고 있기 때문에, Undo 영역에서 백업된 정보는 **트랜잭션 이전의 정보**이다.
 
-<img src="./images/transaction_isol_commit1.png" alt="Transaction Status" style="zoom:50%;" />
+<img src="https://github.com/jhhong0509/study/blob/master/stu_spring/etc_information/images/transaction_isol_commit1.png?raw=true" alt="Transaction Status" style="zoom:50%;" />
 
 하지만 이러한 방식에도 문제는 존재한다.
 
@@ -282,7 +293,7 @@ MGL을 위해 InnoDB는 Intention Lock을 사용하는데, Intention Lock은 **�
 
 따라서 `Repeatable Read`의 정합성에 어긋난다.
 
-<img src="./images/transaction_isol_commit2.png" alt="Transaction Status" style="zoom:50%;" />
+<img src="https://github.com/jhhong0509/study/blob/master/stu_spring/etc_information/images/transaction_isol_commit2.png?raw=true" alt="Transaction Status" style="zoom:50%;" />
 
 
 
@@ -314,7 +325,7 @@ UPDATE된 정보는 스냅샷에서 정보를 가져오기 때문에 문제가 �
 
 
 
-<img src="./images/repeatable_read_1.png" alt="Repeatable Read" style="zoom:50%;" />
+<img src="https://github.com/jhhong0509/study/blob/master/stu_spring/etc_information/images/repeatable_read_1.png?raw=true" alt="Repeatable Read" style="zoom:50%;" />
 
 
 
@@ -338,4 +349,5 @@ FOR SHARE의 의미는 **shared lock을 건다는 의미**이다.
 
 ### 발생 문제 정리
 
-![isol_problem](./images/isol_problem.png)
+
+![servlet_extends](https://github.com/jhhong0509/study/blob/master/stu_spring/etc_information/images/isol_problem.png?raw=true)

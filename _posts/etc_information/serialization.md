@@ -1,3 +1,13 @@
+---
+layout: post
+title: Serialization
+date: 2021-05-03
+category: helpful-information
+author: jhhong0509
+short-description: Serialization in java
+---
+------
+
 # 직렬화
 
 - 직렬화란?

@@ -1,3 +1,13 @@
+---
+layout: post
+title: Immutable Object
+date: 2021-05-03
+category: helpful-information
+author: jhhong0509
+short-description: Immutable object in java
+---
+------
+
 # 불변 객체
 
 ### 불변 객체란?

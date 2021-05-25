@@ -1,3 +1,13 @@
+---
+layout: post
+title: QueryString vs PathParameter
+date: 2021-05-03
+category: helpful-information
+author: jhhong0509
+short-description: Gap between QueryString and PathParameter
+---
+------
+
 # Query String vs Path Parameter
 
 ### 공통점

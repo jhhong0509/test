@@ -1,3 +1,13 @@
+---
+layout: post
+title: Build.gradle
+date: 2021-05-03
+category: helpful-information
+author: jhhong0509
+short-description: information about build.gradle
+---
+------
+
 # build.gradle
 
 ### build.gradle이란?

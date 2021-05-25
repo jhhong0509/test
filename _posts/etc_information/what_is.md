@@ -1,3 +1,13 @@
+---
+layout: post
+title: Bean
+date: 2021-05-03
+category: helpful-information
+author: jhhong0509
+short-description: What is bean in Spring
+---
+------
+
 # Spring Bean
 
 ### SpringBean이란

@@ -1,3 +1,13 @@
+---
+layout: post
+title: Var
+date: 2021-05-03
+category: helpful-information
+author: jhhong0509
+short-description: var in java
+---
+------
+
 # Java var
 
 ### 소개
