@@ -2,7 +2,7 @@
 layout: post
 title: JPQL Basic
 date: 2021-05-09
-category: orm
+category: spring-orm
 author: jhhong0509
 short-description: JPQL Basic
 ---
