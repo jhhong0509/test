@@ -42,7 +42,7 @@ short-description: normalization 1 to BCNF
 
 - 예제
 
-![no_normal](no_normal.png)
+![no_normal](https://github.com/jhhong0509/study/blob/master/database/no_normal.png?raw=true)
 
 > 위와 같은 형태는 이름, 학번, 메일, 대학이 중복되어 있다.
 >
@@ -58,7 +58,7 @@ short-description: normalization 1 to BCNF
 
 > 위와 같은 과정을 거친 후, 아래와 같이 제 1 정규형이 완성된다.
 
-![1_normal](1_normal.png)
+![1_normal](https://github.com/jhhong0509/study/blob/master/database/1_normal.png?raw=true)
 
 > PK는 학번, 수강학기, 과목명을 합친 복합키 이다.
 
@@ -74,7 +74,7 @@ short-description: normalization 1 to BCNF
 
   > 위 테이블의 경우엔, 제한인원이 복합키들에게 종속된 것 같지 않기 때문에, 분리하여 줘야 한다.
 
-![2_normal](2_normal.png)
+![2_normal](https://github.com/jhhong0509/study/blob/master/database/2_normal.png?raw=true)
 
 ### 제 3차 정규형(THIRD NORMAL FORM)
 
@@ -88,7 +88,7 @@ short-description: normalization 1 to BCNF
 
   > 위 테이블의 경우. 학생 테이블의 전공과 대학은 종속 관계가 성립되기 때문에 정규화가 필요하다.
 
-![3_normal](3_normal.png)
+![3_normal](https://github.com/jhhong0509/study/blob/master/database/3_normal.png?raw=true)
 
 ### BCNF(Boyce-Codd Normal Format)
 
@@ -104,7 +104,7 @@ short-description: normalization 1 to BCNF
 
 - 예제
 
-![bcnf_not](bcnf_not.png)
+![bcnf_not](https://github.com/jhhong0509/study/blob/master/database/bcnf_not.png?raw=true)
 
 > 위 테이블은 3NF를 충족하지만 삽입, 삭제, 갱신에 문제가 발생할 수 있다.
 
@@ -130,4 +130,4 @@ short-description: normalization 1 to BCNF
 
   > 분리 전의 결정자 역할을  했던 속성을 키로 해 준다.
 
-![bcnf_success](bcnf_success.png)
+![bcnf_success](https://github.com/jhhong0509/study/blob/master/database/bcnf_success.png?raw=true)
