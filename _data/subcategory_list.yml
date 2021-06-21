@@ -52,3 +52,21 @@ webflux:
   parent-category: spring
   parent-category-name: spring
   description: Spring's non-blocking programming webflux
+
+container-orchestration:
+  name: Container Orchestration
+  parent-category: cicd
+  parent-category-name: cicd
+  description: Container Orchestration - ex) Kubernetes
+
+aws:
+  name: AWS
+  parent-category: cicd
+  parent-category-name: cicd
+  description: Study about AWS
+
+docker:
+  name: Docker
+  parent-category: cicd
+  parent-category-name: cicd
+  description: Study about Docker

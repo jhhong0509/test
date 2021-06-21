@@ -6,12 +6,9 @@ spring:
 database:
   name: database
   description: Study about database
-#using-odin2: not finished
-#  name: nginx
-#  description: nginx
 refactoring:
   name: refactoring
   description: Study about code refactoring
-docker:
-  name: docker
-  description: Study about docker.
+cicd:
+  name: cicd
+  description: Study Continuous Integrate and Continuous Deployment

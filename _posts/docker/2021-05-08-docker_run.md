@@ -75,8 +75,6 @@ docker rm 이름
 
 docker를 제어할 때, 기본적으로 컨테이너 id가 주어진다.
 
-![docker_container_id](..\images\docker_container_id.png)
-
 이러한 컨테이너를 멈추기 위해서는 다음과 같은 명령어를 사용하면 된다.
 
 ``` shell
