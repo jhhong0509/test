@@ -2,7 +2,7 @@
 layout: post
 title: Introduce Kubernetes
 date: 2021-06-21
-category: kubernetes
+category: container-orchestration
 author: jhhong0509
 short-description: What is Kubernetes? and future of docker
 ---
